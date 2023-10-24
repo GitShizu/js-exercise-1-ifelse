@@ -6,7 +6,7 @@ let SubjectYearNumeric = parseInt(SubjectYear)
 let DivisibleBy4 = SubjectYearNumeric%4
 let DivisibleBy100 = SubjectYearNumeric%100
 let DivisibleBy400 = SubjectYearNumeric%400
-if (((DivisibleBy4=0) && !(DivisibleBy100=0)) || (DivisibleBy400=0)){
+if (((DivisibleBy4==0) && !(DivisibleBy100==0)) || (DivisibleBy400=0)){
     alert("It's a leap year")
 }else{
     alert("it's not a leap year")

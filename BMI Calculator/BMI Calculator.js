@@ -4,16 +4,14 @@ let WeightInput = prompt("Type your weight in kg here")
 let HeightInput = prompt("Type your height in meters here")
 let Weight = parseInt(WeightInput)
 let Height = parseInt(HeightInput)
-let BMI = Weight / Height^2
+let BMI = Weight / (Height**2)
 if (BMI<=18.5) {
     // alert(BMI);
     alert("Underweight");
-}
-if (BMI>=18.5 && BMI<=24.9) {
+}else if (BMI>=18.5 && BMI<=24.9) {
     // alert(BMI);
     alert("Normal weight");
-}
-if (BMI>=25) {
+}else if (BMI>=25) {
     // alert(BMI);
     alert("Overweight");
 }
