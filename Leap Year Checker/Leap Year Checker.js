@@ -2,7 +2,7 @@
 
 
 let SubjectYear = prompt("Type a year here")
-let SubjectYearNumeric = parseInt(SubjectYear)
+let SubjectYearNumeric = Number(SubjectYear)
 let DivisibleBy4 = SubjectYearNumeric%4
 let DivisibleBy100 = SubjectYearNumeric%100
 let DivisibleBy400 = SubjectYearNumeric%400
